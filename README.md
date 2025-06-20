@@ -10,13 +10,13 @@ O projeto foi construído seguindo os padrões do Ionic com Angular, utilizando 
 
 ---
 
-## 🖼️ Telas do Projeto
-
-*Esta seção deve ser preenchida com pelo menos 5 capturas de tela do aplicativo finalizado.*
+### 🖼️ Telas do Projeto
 
 | Lista de Produtos | Detalhes do Produto | Aba Sobre |
 | :---: | :---: | :---: |
-| *(coloque aqui o screenshot da tela principal)* | *(coloque aqui o screenshot da tela de detalhes)* | *(coloque aqui o screenshot da tela "Sobre")* |
+| ![alt text](image-1.png) | ![alt text](image-2.png) | ![alt text](image.png) |
+| ![alt text](image-3.png) | ![alt text](image-4.png) 
+
 
 ---
 
@@ -35,7 +35,7 @@ Siga os passos abaixo para executar o projeto em sua máquina local.
 
 ```bash
 # 1. Clone este repositório
-$ git clone https://github.com/[seu-usuario-github]/mobileFakeStore.git
+$ git clone https://github.com/thelucky19/mobileFakeStore.git
 
 # 2. Acesse a pasta do projeto no terminal
 $ cd mobileFakeStore
@@ -58,13 +58,10 @@ Este é um projeto desenvolvido para fins de avaliação acadêmica, portanto, c
 
 ## 👨‍💻 Autor
 
-| [<img src="https://avatars.githubusercontent.com/[seu-usuario-github]" width=115><br><sub>[Seu Nome Completo]</sub>](https://github.com/[seu-usuario-github]) |
+| [<img src="https://avatars.githubusercontent.com/thelucky19" width=115><br><sub>github.com/thelucky19</sub>](https://github.com/thelucky19) |
 | :---: |
 
-Feito por **[Seu Nome Completo]**. Entre em contato!
-
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/[seu-usuario-linkedin])](https://www.linkedin.com/in/[seu-usuario-linkedin])
-[![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:[seu-email@gmail.com])](mailto:[seu-email@gmail.com])
+Feito por **João Lucas Fernandes dos Santos**.
 
 ---
 

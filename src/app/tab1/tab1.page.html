@@ -1,17 +1,29 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+  <ion-toolbar color="primary">
+    <ion-title>Produtos</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title size="large">Produtos</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <div *ngIf="isLoading" style="text-align: center; padding-top: 20px;">
+    <ion-spinner name="crescent"></ion-spinner>
+  </div>
+
+  <ion-list *ngIf="!isLoading">
+    <ion-item *ngFor="let product of products" [routerLink]="['/tabs/tab2', product.id]" detail="true">
+      <ion-thumbnail slot="start">
+        <img [src]="product.image" />
+      </ion-thumbnail>
+      <ion-label>
+        <h2>{{ product.title }}</h2>
+        <p>{{ product.price | currency:'BRL' }}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
 </ion-content>
