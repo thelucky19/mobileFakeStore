@@ -35,16 +35,16 @@ Siga os passos abaixo para executar o projeto em sua máquina local.
 
 ```bash
 # 1. Clone este repositório
-$ git clone https://github.com/thelucky19/mobileFakeStore.git
+git clone https://github.com/thelucky19/mobileFakeStore.git
 
 # 2. Acesse a pasta do projeto no terminal
-$ cd mobileFakeStore
+cd mobileFakeStore
 
 # 3. Instale as dependências
-$ npm install
+npm install
 
 # 4. Execute a aplicação em modo de desenvolvimento
-$ ionic serve
+ionic serve
 ```
 Após executar o último comando, o projeto será aberto em seu navegador no endereço `http://localhost:8100/`.
 
